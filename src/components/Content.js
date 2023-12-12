@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Image from './Image';
+import Header from './Header';
 
 class Content extends Component {
   constructor(props) {
@@ -88,6 +89,7 @@ class Content extends Component {
 
     return (
       <div>
+        <Header />
         <p>Місце народження: 07.19.2004, Київ, Україна</p>
         <p
           id="element1"
