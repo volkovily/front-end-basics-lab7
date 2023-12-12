@@ -22,18 +22,6 @@ class Content extends Component {
     };
   }
 
-  handleElement1Click = () => {
-    this.setState((prevState) => ({
-      isClicked: !prevState.isClicked,
-    }));
-  };
-
-  handleElement2Click = () => {
-    this.setState((prevState) => ({
-      isClicked2: !prevState.isClicked2,
-    }));
-  };
-
   handleAddButtonClick = () => {
     this.setState({
       imageVisible: true,
