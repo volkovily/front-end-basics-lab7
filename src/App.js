@@ -2,7 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Content from './components/Content';
-import SecondPage from './components/Task2';
+import SecondPage from './components/GoodsGallery';
 
 function Menu() {
   return (
